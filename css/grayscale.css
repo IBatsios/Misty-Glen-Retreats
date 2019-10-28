@@ -90,22 +90,21 @@
   font-size: 1.5rem;
 }
 
+.text-black {
+  color: black;
+}
+
 .masthead {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 90%, #161616 100%), url("../img/buckeye/mistyglen.jpg");
+  background: linear-gradient(to bottom, rgba(0,0,0,0)70%, rgba(22, 22, 22, 0.9) 100%), url("../img/buckeye/mistyglen.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-}
-
-.masthead img {
-  width: 75%;
-  margin-top: 150px;
 }
 
 .masthead h1 {
@@ -169,6 +168,13 @@
   color: white;
 }
 
+.mx-bottom-left img {
+  position: absolute;
+  bottom: 50px; 
+  left: 50px;
+  width: 50%;
+}
+
 .btn-primary:active {
   background-color: #467370 !important;
 }
@@ -184,7 +190,7 @@
 
 .about-section {
   padding-top: 4rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%), url("../img/logos/pattern/chevron_pattern/navy_chevron.png");
+  background: linear-gradient(to bottom, #161616 100%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%), url("../img/logos/pattern/chevron_pattern/navy_chevron.png");
 }
 
 #amenities {
@@ -194,7 +200,7 @@
   font-size: 12px;
   background-color: #e4dcce;
   padding-bottom: 100px;
-  text-align: justify !important;
+  text-align: left !important;
 }
 
 .add-margin {
