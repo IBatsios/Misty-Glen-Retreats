@@ -185,16 +185,30 @@
 
 #amenities {
   padding-top: 50px;
-  margin-bottom: 100px;
+  font-size: 12px;
+  background-color: #7b8c94;
+  padding-bottom: 100px;
+}
+
+#amenities h1 {
+  font-size: 34px;
+
 }
 
 .add-margin {
   margin-top:3rem!important
 }
 
+
+
 #amenities ul, li{
-  text-align: justify;
+  text-align: center;
   font-size: 2em;
+
+}
+
+#photos {
+  
 }
 
 .photos-section {
@@ -321,3 +335,5 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+
