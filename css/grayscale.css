@@ -55,10 +55,11 @@
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(38, 66, 41, 1);
+    font-weight: bold;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(38, 66, 41, 0.75);
   }
   #mainNav .nav-link:active {
     color: white;
@@ -210,12 +211,9 @@ li {
 }
 
 #amenities {
-  padding-top: 50px;
-  padding-left: 100px;
-  padding-right: 50px;
+  padding: 50px 0 100px 2%;
   font-size: 12px;
   background-color: #e4dcce;
-  padding-bottom: 100px;
   text-align: left !important;
 }
 
@@ -230,10 +228,6 @@ li {
 
 .amenities-header {
   padding-bottom: 25px;
-}
-
-#glen-big-pic {
-  background: rgba(0, 0, 0, 0.4);
 }
 
 .add-margin {
